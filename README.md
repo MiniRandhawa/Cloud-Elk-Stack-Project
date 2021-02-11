@@ -34,13 +34,12 @@ Metricbeat collects metrics from your systems and services, and ships them to th
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | private    | Linux            |
-                        10.0.0.4 
-| web 1    | server   | 10.0.0.5   | Linux            |
-| web 2    | server   | 10.0.0.6   | Linux            |
-| ELK-server|Monitoring|10.1.0.4   | Linux            |
+| Name       | Function   | IP Address       | Operating System |
+|------------|------------|------------------|------------------|
+| Jump Box   | Gateway    | Private 10.0.0.4 | Linux            |
+| Web 1      | Server     | 10.0.0.5         | Linux            |
+| Web 2      | Server     | 10.0.0.6         | Linux            |
+| ELK Server | Monitoring | 10.1.0.4         | Linux            |
 
 ### Access Policies
 
